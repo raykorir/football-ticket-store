@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#searchInput {
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    max-width: 400px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.ticket {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.ticket h2 {
+    margin: 0;
+}
+
+.ticket p {
+    margin: 10px 0;
+}
+
+aside {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+#cartItems {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cartItems li {
+    margin-bottom: 10px;
+}
+
+#checkoutBtn {
+    display: block;
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#checkoutBtn:hover {
+    background-color: #555;
+}
